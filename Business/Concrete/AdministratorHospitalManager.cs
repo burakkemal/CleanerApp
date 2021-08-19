@@ -13,10 +13,11 @@ namespace Business.Concrete
     public class AdministratorHospitalManager : IAdministratorHospitalService
     {
         IAdministratorHospitalDal _administratorHospitalDal;
-
-        public AdministratorHospitalManager(IAdministratorHospitalDal administratorHospitalDal)
+        IHospitalIsActiveDal _hospitalisActiveDal;
+        public AdministratorHospitalManager(IAdministratorHospitalDal administratorHospitalDal, IHospitalIsActiveDal hospitalIsActiveDal)
         {
             _administratorHospitalDal = administratorHospitalDal;
+            _hospitalisActiveDal = hospitalIsActiveDal;
         }
 
         public IResult Add(AdministratorHospital administratorHospital)
@@ -30,10 +31,17 @@ namespace Business.Concrete
             return new SuccessDataResult<List<AdministratorHospital>>(_administratorHospitalDal.GetAll());
         }
 
+        public IResult HospitalUpdate(HospitalIsActive hospitalIsActive)
+        {
+            _hospitalisActiveDal.Update(hospitalIsActive);
+            return new SuccessResult("Hastane Güncellendi");
+        }
+
         public IResult Update(AdministratorHospital administratorHospital)
         {
             _administratorHospitalDal.Update(administratorHospital);
             return new SuccessResult("Güncellendi");
         }
+
     }
 }
