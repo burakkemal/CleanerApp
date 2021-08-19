@@ -13,5 +13,8 @@ namespace Business.Abstract
         IDataResult<List<Administrator>> GetAll();
         IResult Add(Administrator administrator);
         IResult Update(Administrator administrator);
+
+        IResult UserIsActiveAdd(UserIsActive userIsActive);
+        IResult UserIsActiveUpdate(UserIsActive userIsActive);
     }
 }

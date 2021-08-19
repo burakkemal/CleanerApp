@@ -38,5 +38,12 @@ namespace WebAPI.Controllers
             var result = _administratorService.Update(administrator);
             return result.Success ? Ok(result) : BadRequest(result);
         }
+        [HttpPost("UserIsActiveAdd")]
+        public IActionResult UserIsActiveAdd(UserIsActive userIsActive)
+        {
+            var result = _administratorService.UserIsActiveAdd(userIsActive);
+            return result.Success ? Ok(result) : BadRequest(result);
+
+        }
     }
 }

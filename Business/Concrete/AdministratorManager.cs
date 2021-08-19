@@ -13,10 +13,12 @@ namespace Business.Concrete
     public class AdministratorManager : IAdministratorService
     {
         IAdministratorDal _administratorDal;
+        IUserIsActiveService _userIsActiveService;
 
-        public AdministratorManager(IAdministratorDal administratorDal)
+        public AdministratorManager(IAdministratorDal administratorDal, IUserIsActiveService userIsActiveService)
         {
             _administratorDal = administratorDal;
+            _userIsActiveService = userIsActiveService;
         }
 
         public IResult Add(Administrator administrator)
@@ -34,6 +36,18 @@ namespace Business.Concrete
         {
             _administratorDal.Update(administrator);
             return new SuccessResult();
+        }
+
+        public IResult UserIsActiveAdd(UserIsActive userIsActive)
+        {
+            _userIsActiveService.Add(userIsActive);
+            return new SuccessResult("Eklendi");
+        }
+
+        public IResult UserIsActiveUpdate(UserIsActive userIsActive)
+        {
+            _userIsActiveService.Update(userIsActive);
+            return new SuccessResult("Güncellendi");
         }
     }
 }
