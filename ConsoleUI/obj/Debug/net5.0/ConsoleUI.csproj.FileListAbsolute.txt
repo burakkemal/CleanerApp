@@ -1,0 +1,16 @@
+C:\Users\burak\source\repos\CleanerApp\ConsoleUI\bin\Debug\net5.0\ConsoleUI.exe
+C:\Users\burak\source\repos\CleanerApp\ConsoleUI\bin\Debug\net5.0\ConsoleUI.deps.json
+C:\Users\burak\source\repos\CleanerApp\ConsoleUI\bin\Debug\net5.0\ConsoleUI.runtimeconfig.json
+C:\Users\burak\source\repos\CleanerApp\ConsoleUI\bin\Debug\net5.0\ConsoleUI.runtimeconfig.dev.json
+C:\Users\burak\source\repos\CleanerApp\ConsoleUI\bin\Debug\net5.0\ConsoleUI.dll
+C:\Users\burak\source\repos\CleanerApp\ConsoleUI\bin\Debug\net5.0\ref\ConsoleUI.dll
+C:\Users\burak\source\repos\CleanerApp\ConsoleUI\bin\Debug\net5.0\ConsoleUI.pdb
+C:\Users\burak\source\repos\CleanerApp\ConsoleUI\obj\Debug\net5.0\ConsoleUI.csproj.AssemblyReference.cache
+C:\Users\burak\source\repos\CleanerApp\ConsoleUI\obj\Debug\net5.0\ConsoleUI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\burak\source\repos\CleanerApp\ConsoleUI\obj\Debug\net5.0\ConsoleUI.AssemblyInfoInputs.cache
+C:\Users\burak\source\repos\CleanerApp\ConsoleUI\obj\Debug\net5.0\ConsoleUI.AssemblyInfo.cs
+C:\Users\burak\source\repos\CleanerApp\ConsoleUI\obj\Debug\net5.0\ConsoleUI.csproj.CoreCompileInputs.cache
+C:\Users\burak\source\repos\CleanerApp\ConsoleUI\obj\Debug\net5.0\ConsoleUI.dll
+C:\Users\burak\source\repos\CleanerApp\ConsoleUI\obj\Debug\net5.0\ref\ConsoleUI.dll
+C:\Users\burak\source\repos\CleanerApp\ConsoleUI\obj\Debug\net5.0\ConsoleUI.pdb
+C:\Users\burak\source\repos\CleanerApp\ConsoleUI\obj\Debug\net5.0\ConsoleUI.genruntimeconfig.cache
