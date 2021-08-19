@@ -23,8 +23,6 @@ namespace Core.Utilities.Security.JWT
             var tokenOptionsSection = Configuration.GetSection("TokenOptions");
             _tokenOptions = new TokenOptions();
             tokenOptionsSection.get(_tokenOptions);//appsettings"deki "Toıkenoptions" olanı al. Sınıfın değerlerini kullanarak maple. ordaki ile atama yapar.
-
-
         }
         public AccessToken CreateToken(User user, List<OperationClaim> operationClaims) //bu kullanıcı için token üretilir. user bilgisi ver claim ver. ona göre token oluşturma.
         {
@@ -41,7 +39,6 @@ namespace Core.Utilities.Security.JWT
                 Expiration = _accessTokenExpiration
             };
         }
-
         public JwtSecurityToken CreateJwtSecurityToken(TokenOptions tokenOptions, User user,
             SigningCredentials signingCredentials, List<OperationClaim> operationClaims)
         {
@@ -55,7 +52,6 @@ namespace Core.Utilities.Security.JWT
             );
             return jwt;
         }
-
         private IEnumerable<Claim> SetClaims(User user, List<OperationClaim> operationClaims)
         {
             var claims = new List<Claim>();
@@ -63,7 +59,6 @@ namespace Core.Utilities.Security.JWT
             claims.AddEmail(user.Email);
             claims.AddName($"{user.FirstName} {user.LastName}"); //2 tane stringi yanyana kullanmak için kullanılır.
             claims.AddRoles(operationClaims.Select(c => c.Name).ToArray());
-
             return claims;
         }
     }
