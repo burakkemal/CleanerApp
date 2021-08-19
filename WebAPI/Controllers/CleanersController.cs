@@ -38,5 +38,11 @@ namespace WebAPI.Controllers
                 ? Ok(result) 
                 : BadRequest(result);
         }
+        [HttpPut("update")]
+        public IActionResult Update(Cleaner cleaner)
+        {
+            var result = _cleanerService.Update(cleaner);
+            return result.Success ? Ok(result) : BadRequest(result);
+        }
     }
 }
