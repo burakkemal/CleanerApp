@@ -14,13 +14,13 @@ namespace WebAPI.Controllers
     public class CleanersController : ControllerBase
     {
         ICleanerService _cleanerService;
-
+        IHospitalIsActiveService hospitalIsActive;
         public CleanersController(ICleanerService cleanerService)
         {
             _cleanerService = cleanerService;
         }
 
-
+        
         [HttpGet("getall")]
         public IActionResult GetAll()
         {

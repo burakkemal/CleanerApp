@@ -16,5 +16,6 @@ namespace Business.Abstract
 
         IResult Update(AdministratorHospital administratorHospital);
         IResult HospitalUpdate(HospitalIsActive hospitalIsActive);
+        IResult HospitalAdd(HospitalIsActive hospitalIsActive);
     }
 }
