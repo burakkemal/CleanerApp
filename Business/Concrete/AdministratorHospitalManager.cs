@@ -31,13 +31,14 @@ namespace Business.Concrete
             return new SuccessDataResult<List<AdministratorHospital>>(_administratorHospitalDal.GetAll());
         }
 
-        public IResult HospitalAdd(HospitalIsActive hospitalIsActive)
+        public IResult HospitalIsActiveAdd(HospitalIsActive hospitalIsActive)
         {
             _hospitalIsActiveService.Add(hospitalIsActive);
             return new SuccessResult("eklendi");
         }
 
-        public IResult HospitalUpdate(HospitalIsActive hospitalIsActive)
+
+        public IResult HospitalIsActiveUpdate(HospitalIsActive hospitalIsActive)
         {
             _hospitalIsActiveService.Update(hospitalIsActive);
             return new SuccessResult("Hastane Güncellendi");
