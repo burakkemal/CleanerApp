@@ -20,7 +20,7 @@ namespace Core.DataAccess.EntityFramework
 
         public void Add(TEntity entity)
         {
-            Console.WriteLine("burak");
+         
             entity.Id = Guid.NewGuid();
             entity.CreatedAt = DateTime.Now;
             var addedEntity = Context.Entry(entity);
