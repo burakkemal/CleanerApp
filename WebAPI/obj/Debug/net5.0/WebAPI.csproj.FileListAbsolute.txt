@@ -49,3 +49,10 @@ C:\Users\burak\source\repos\CleanerApp\WebAPI\bin\Debug\net5.0\Autofac.Extras.Dy
 C:\Users\burak\source\repos\CleanerApp\WebAPI\bin\Debug\net5.0\Castle.Core.dll
 C:\Users\burak\source\repos\CleanerApp\WebAPI\bin\Debug\net5.0\Autofac.Extensions.DependencyInjection.dll
 C:\Users\burak\source\repos\CleanerApp\WebAPI\bin\Debug\net5.0\FluentValidation.dll
+C:\Users\burak\source\repos\CleanerApp\WebAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\burak\source\repos\CleanerApp\WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\burak\source\repos\CleanerApp\WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\burak\source\repos\CleanerApp\WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\burak\source\repos\CleanerApp\WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\burak\source\repos\CleanerApp\WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\burak\source\repos\CleanerApp\WebAPI\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
