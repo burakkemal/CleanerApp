@@ -23,6 +23,12 @@ namespace Business.Concrete
             return new SuccessResult();
 
         }
+
+        public User GetByMail(string email)
+        {
+            return _userDal.Get(p => p.Email == email);
+        }
+
         public List<OperationClaim> GetClaims(User user)
         {
             return _userDal.GetClaims(user);
