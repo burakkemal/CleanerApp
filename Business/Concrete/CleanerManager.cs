@@ -1,8 +1,12 @@
 ﻿using Business.Abstract;
+using Business.BusinessAspects.Autofac;
 using Business.Constants;
+using Core.Entities.Concrete;
 using Core.Utilities.Results;
+using Core.Utilities.Security.Hashing;
 using DataAccess.Abstract;
 using Entities.Concrete;
+using Entities.DTOs;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,6 +18,8 @@ namespace Business.Concrete
     public class CleanerManager : ICleanerService
     {
         ICleanerDal _cleanerDal;
+        
+
 
         public CleanerManager(ICleanerDal cleanerDal)
         {
@@ -23,9 +29,10 @@ namespace Business.Concrete
         public IResult Add(Cleaner cleaner)
         {
             _cleanerDal.Add(cleaner);
-            return new SuccessResult(Messages.CleanerAdded);
+            return new SuccessResult("Eklendi");
         }
 
+        [SecuredOperation("admin")]
         public IDataResult<List<Cleaner>> GetAll()
         {
             return new SuccessDataResult<List<Cleaner>>(_cleanerDal.GetAll());
