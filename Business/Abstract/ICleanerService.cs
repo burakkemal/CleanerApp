@@ -12,7 +12,9 @@ namespace Business.Abstract
     public interface ICleanerService
     {
         IDataResult<List<Cleaner>> GetAll();
+        IDataResult<List<CleanersDetailDto>> GetCleanerDetail();
         IResult Add(Cleaner cleaner);
         IResult Update(Cleaner cleaner);
+
     }
 }

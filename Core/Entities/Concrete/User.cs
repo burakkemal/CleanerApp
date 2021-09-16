@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Core.Entities.Concrete
 {
-    public class User : EntityBase
+    public class User : EntityBase, IEntity
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }
@@ -15,7 +15,7 @@ namespace Core.Entities.Concrete
         public byte[] PasswordHash { get; set; }
         public int TelephoneNumber { get; set; }
         public bool Status { get; set; }
-       
+
     }
-    
+
 }

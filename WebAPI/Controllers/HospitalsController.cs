@@ -29,7 +29,7 @@ namespace WebAPI.Controllers
                 : BadRequest(result);
         }
         [HttpPost("add")]
-        public IActionResult Add(Hospital hospital)
+        public IActionResult Add([FromForm()]Hospital hospital)
         {
             var result = _hospitalService.Add(hospital);
             return result.Success ? Ok(result) : BadRequest(result);

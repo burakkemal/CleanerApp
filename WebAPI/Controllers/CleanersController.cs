@@ -1,5 +1,6 @@
 ﻿using Business.Abstract;
 using Entities.Concrete;
+using Entities.DTOs;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -19,7 +20,7 @@ namespace WebAPI.Controllers
             _cleanerService = cleanerService;
         }
 
-        
+
         [HttpGet("getall")]
         public IActionResult GetAll()
         {
@@ -28,13 +29,22 @@ namespace WebAPI.Controllers
                 ? Ok(result)
                 : BadRequest(result);
         }
+        [HttpGet("getcleanersdetail")]
+        public IActionResult GetCleanersDetail()
+        {
+            var result = _cleanerService.GetCleanerDetail();
+            return result.Success
+                ? Ok(result)
+                : BadRequest(result);
+        }
 
         [HttpPost("add")]
-        public IActionResult Add(Cleaner cleaner)
+        public IActionResult Add([FromForm()] Cleaner cleaner)
         {
+
             var result = _cleanerService.Add(cleaner);
-            return result.Success 
-                ? Ok(result) 
+            return result.Success
+                ? Ok(result)
                 : BadRequest(result);
         }
         [HttpPut("update")]

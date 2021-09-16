@@ -25,12 +25,28 @@ namespace Business.DependencyResolvers.Autofac
             builder.RegisterType<LocationObjectManager>().As<ILocationObjectService>().SingleInstance();
             builder.RegisterType<EfLocationObjectDal>().As<ILocationObjectDal>().SingleInstance();
 
+            builder.RegisterType<HospitalManager>().As<IHospitalService>().SingleInstance();
+            builder.RegisterType<EfHospitalDal>().As<IHospitalDal>().SingleInstance();
+
             builder.RegisterType<UserManager>().As<IUserService>();
             builder.RegisterType<EfUserDal>().As<IUserDal>();
+
+
+            builder.RegisterType<CleanerManager>().As<ICleanerService>();
+            builder.RegisterType<EfCleanerDal>().As<ICleanerDal>();
 
             builder.RegisterType<AuthManager>().As<IAuthService>();
             builder.RegisterType<JwtHelper>().As<ITokenHelper>();
 
+
+            builder.RegisterType<AdministratorHospitalManager>().As<IAdministratorHospitalService>();
+            builder.RegisterType<EfAdministratorHospitalDal>().As<IAdministratorHospitalDal>();
+
+            builder.RegisterType<AdministratorManager>().As<IAdministratorService>();
+            builder.RegisterType<EfAdministratorDal>().As<IAdministratorDal>();
+
+            builder.RegisterType<LocationManager>().As<ILocationService>();
+            builder.RegisterType<EfLocationDal>().As<ILocationDal>();
 
 
 
@@ -41,8 +57,6 @@ namespace Business.DependencyResolvers.Autofac
                 {
                     Selector = new AspectInterceptorSelector()
                 }).SingleInstance();
-
-
         }
     }
 }

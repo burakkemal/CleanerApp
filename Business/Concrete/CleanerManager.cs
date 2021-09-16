@@ -32,10 +32,16 @@ namespace Business.Concrete
             return new SuccessResult("Eklendi");
         }
 
-        [SecuredOperation("admin")]
+       [SecuredOperation("admin")]
         public IDataResult<List<Cleaner>> GetAll()
         {
             return new SuccessDataResult<List<Cleaner>>(_cleanerDal.GetAll());
+        }
+
+        public IDataResult<List<CleanersDetailDto>> GetCleanerDetail()
+        {
+
+            return new SuccessDataResult<List<CleanersDetailDto>>(_cleanerDal.GetCleanersDetails());
         }
 
         public IResult Update(Cleaner cleaner)
