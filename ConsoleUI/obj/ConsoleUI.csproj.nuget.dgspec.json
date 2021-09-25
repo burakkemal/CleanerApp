@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\burak\\source\\repos\\CleanerApp\\ConsoleUI\\ConsoleUI.csproj": {}
+    "D:\\Projelerim\\CleanerApp\\ConsoleUI\\ConsoleUI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\burak\\source\\repos\\CleanerApp\\ConsoleUI\\ConsoleUI.csproj": {
+    "D:\\Projelerim\\CleanerApp\\ConsoleUI\\ConsoleUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\burak\\source\\repos\\CleanerApp\\ConsoleUI\\ConsoleUI.csproj",
+        "projectUniqueName": "D:\\Projelerim\\CleanerApp\\ConsoleUI\\ConsoleUI.csproj",
         "projectName": "ConsoleUI",
-        "projectPath": "C:\\Users\\burak\\source\\repos\\CleanerApp\\ConsoleUI\\ConsoleUI.csproj",
+        "projectPath": "D:\\Projelerim\\CleanerApp\\ConsoleUI\\ConsoleUI.csproj",
         "packagesPath": "C:\\Users\\burak\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\burak\\source\\repos\\CleanerApp\\ConsoleUI\\obj\\",
+        "outputPath": "D:\\Projelerim\\CleanerApp\\ConsoleUI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\burak\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -40,8 +40,7 @@ namespace WebAPI.Controllers
 
         [HttpPost("add")]
         public IActionResult Add([FromForm()] Cleaner cleaner)
-        {
-
+        { 
             var result = _cleanerService.Add(cleaner);
             return result.Success
                 ? Ok(result)

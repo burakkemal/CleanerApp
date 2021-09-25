@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RtrCwV6SH2hotVTjoRtxkW82V10bXh+M2uV4zI+iVktAVir0LePs55a3NdiFdECv8Aq4niWQLa/dqI5mKMttBg==",
+  "dgSpecHash": "ilUtwFLeFM2e/P7EL51X0F1+mdLMkfvB1S7LfSL8aFDc/UyGZQJsCqM0UEO7ET3L/X7HGi+ml5eohS1zj6QnWw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\burak\\source\\repos\\CleanerApp\\Business\\Business.csproj",
+  "projectFilePath": "D:\\Projelerim\\CleanerApp\\Business\\Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\burak\\.nuget\\packages\\autofac\\6.2.0\\autofac.6.2.0.nupkg.sha512",
     "C:\\Users\\burak\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.1.0\\autofac.extensions.dependencyinjection.7.1.0.nupkg.sha512",

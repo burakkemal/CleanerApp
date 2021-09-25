@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "htZauTgn6z7wFZBIE1+UViYGSudhMHHNQtmHZt8aVxWI2tZRbbOFywQQmoLudqJQrjk7VFSz0/PEDXdYUn9KxA==",
+  "dgSpecHash": "Ix7hnNPNsaDZgN7vAAVTVqGhD/iJiwoxVcW8RRfvIzS4PojTeZft/Z5X4/UB39h2kbXxosuRNAY35G8K5xGhSQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\burak\\source\\repos\\CleanerApp\\Entities\\Entities.csproj",
+  "projectFilePath": "D:\\Projelerim\\CleanerApp\\Entities\\Entities.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\burak\\.nuget\\packages\\autofac\\6.2.0\\autofac.6.2.0.nupkg.sha512",
     "C:\\Users\\burak\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.1.0\\autofac.extensions.dependencyinjection.7.1.0.nupkg.sha512",

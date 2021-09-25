@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\burak\\source\\repos\\CleanerApp\\Business\\Business.csproj": {}
+    "D:\\Projelerim\\CleanerApp\\Business\\Business.csproj": {}
   },
   "projects": {
-    "C:\\Users\\burak\\source\\repos\\CleanerApp\\Business\\Business.csproj": {
+    "D:\\Projelerim\\CleanerApp\\Business\\Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\burak\\source\\repos\\CleanerApp\\Business\\Business.csproj",
+        "projectUniqueName": "D:\\Projelerim\\CleanerApp\\Business\\Business.csproj",
         "projectName": "Business",
-        "projectPath": "C:\\Users\\burak\\source\\repos\\CleanerApp\\Business\\Business.csproj",
+        "projectPath": "D:\\Projelerim\\CleanerApp\\Business\\Business.csproj",
         "packagesPath": "C:\\Users\\burak\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\burak\\source\\repos\\CleanerApp\\Business\\obj\\",
+        "outputPath": "D:\\Projelerim\\CleanerApp\\Business\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\burak\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,14 +28,14 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\burak\\source\\repos\\CleanerApp\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\burak\\source\\repos\\CleanerApp\\Core\\Core.csproj"
+              "D:\\Projelerim\\CleanerApp\\Core\\Core.csproj": {
+                "projectPath": "D:\\Projelerim\\CleanerApp\\Core\\Core.csproj"
               },
-              "C:\\Users\\burak\\source\\repos\\CleanerApp\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\burak\\source\\repos\\CleanerApp\\DataAccess\\DataAccess.csproj"
+              "D:\\Projelerim\\CleanerApp\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "D:\\Projelerim\\CleanerApp\\DataAccess\\DataAccess.csproj"
               },
-              "C:\\Users\\burak\\source\\repos\\CleanerApp\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\burak\\source\\repos\\CleanerApp\\Entities\\Entities.csproj"
+              "D:\\Projelerim\\CleanerApp\\Entities\\Entities.csproj": {
+                "projectPath": "D:\\Projelerim\\CleanerApp\\Entities\\Entities.csproj"
               }
             }
           }
@@ -94,14 +94,14 @@
         }
       }
     },
-    "C:\\Users\\burak\\source\\repos\\CleanerApp\\Core\\Core.csproj": {
+    "D:\\Projelerim\\CleanerApp\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\burak\\source\\repos\\CleanerApp\\Core\\Core.csproj",
+        "projectUniqueName": "D:\\Projelerim\\CleanerApp\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\burak\\source\\repos\\CleanerApp\\Core\\Core.csproj",
+        "projectPath": "D:\\Projelerim\\CleanerApp\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\burak\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\burak\\source\\repos\\CleanerApp\\Core\\obj\\",
+        "outputPath": "D:\\Projelerim\\CleanerApp\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\burak\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -186,14 +186,14 @@
         }
       }
     },
-    "C:\\Users\\burak\\source\\repos\\CleanerApp\\DataAccess\\DataAccess.csproj": {
+    "D:\\Projelerim\\CleanerApp\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\burak\\source\\repos\\CleanerApp\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "D:\\Projelerim\\CleanerApp\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\burak\\source\\repos\\CleanerApp\\DataAccess\\DataAccess.csproj",
+        "projectPath": "D:\\Projelerim\\CleanerApp\\DataAccess\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\burak\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\burak\\source\\repos\\CleanerApp\\DataAccess\\obj\\",
+        "outputPath": "D:\\Projelerim\\CleanerApp\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\burak\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -210,11 +210,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\burak\\source\\repos\\CleanerApp\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\burak\\source\\repos\\CleanerApp\\Core\\Core.csproj"
+              "D:\\Projelerim\\CleanerApp\\Core\\Core.csproj": {
+                "projectPath": "D:\\Projelerim\\CleanerApp\\Core\\Core.csproj"
               },
-              "C:\\Users\\burak\\source\\repos\\CleanerApp\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\burak\\source\\repos\\CleanerApp\\Entities\\Entities.csproj"
+              "D:\\Projelerim\\CleanerApp\\Entities\\Entities.csproj": {
+                "projectPath": "D:\\Projelerim\\CleanerApp\\Entities\\Entities.csproj"
               }
             }
           }
@@ -263,14 +263,14 @@
         }
       }
     },
-    "C:\\Users\\burak\\source\\repos\\CleanerApp\\Entities\\Entities.csproj": {
+    "D:\\Projelerim\\CleanerApp\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\burak\\source\\repos\\CleanerApp\\Entities\\Entities.csproj",
+        "projectUniqueName": "D:\\Projelerim\\CleanerApp\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\burak\\source\\repos\\CleanerApp\\Entities\\Entities.csproj",
+        "projectPath": "D:\\Projelerim\\CleanerApp\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\burak\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\burak\\source\\repos\\CleanerApp\\Entities\\obj\\",
+        "outputPath": "D:\\Projelerim\\CleanerApp\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\burak\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -287,8 +287,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\burak\\source\\repos\\CleanerApp\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\burak\\source\\repos\\CleanerApp\\Core\\Core.csproj"
+              "D:\\Projelerim\\CleanerApp\\Core\\Core.csproj": {
+                "projectPath": "D:\\Projelerim\\CleanerApp\\Core\\Core.csproj"
               }
             }
           }

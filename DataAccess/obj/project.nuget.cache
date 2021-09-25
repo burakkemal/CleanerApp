@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kaNaZOAflb7ZmDooNZ+ASQYavVPh+zh/HxvjlTF+V5Kg1HxptX4UgapQG1AGM/9geXXIH6QxGWkm9RjMEXa4FA==",
+  "dgSpecHash": "uuYuQ1GQkNITu/sC7MwT8ujInelqFLX7l9uQ9FNV9m6kBbUJn9si9WxzAMmByO9PHwxCUY230152PlXzhoqBgA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\burak\\source\\repos\\CleanerApp\\DataAccess\\DataAccess.csproj",
+  "projectFilePath": "D:\\Projelerim\\CleanerApp\\DataAccess\\DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\burak\\.nuget\\packages\\autofac\\6.2.0\\autofac.6.2.0.nupkg.sha512",
     "C:\\Users\\burak\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.1.0\\autofac.extensions.dependencyinjection.7.1.0.nupkg.sha512",

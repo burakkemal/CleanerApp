@@ -4051,11 +4051,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\burak\\source\\repos\\CleanerApp\\Entities\\Entities.csproj",
+      "projectUniqueName": "D:\\Projelerim\\CleanerApp\\Entities\\Entities.csproj",
       "projectName": "Entities",
-      "projectPath": "C:\\Users\\burak\\source\\repos\\CleanerApp\\Entities\\Entities.csproj",
+      "projectPath": "D:\\Projelerim\\CleanerApp\\Entities\\Entities.csproj",
       "packagesPath": "C:\\Users\\burak\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\burak\\source\\repos\\CleanerApp\\Entities\\obj\\",
+      "outputPath": "D:\\Projelerim\\CleanerApp\\Entities\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\burak\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4072,8 +4072,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\burak\\source\\repos\\CleanerApp\\Core\\Core.csproj": {
-              "projectPath": "C:\\Users\\burak\\source\\repos\\CleanerApp\\Core\\Core.csproj"
+            "D:\\Projelerim\\CleanerApp\\Core\\Core.csproj": {
+              "projectPath": "D:\\Projelerim\\CleanerApp\\Core\\Core.csproj"
             }
           }
         }
